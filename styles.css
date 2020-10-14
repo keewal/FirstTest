@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Helvetica, sans-serif;
+    margin: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom:  auto;
+}
+
+.contain{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 6px;
+    margin: 44px;
+    float: left;
+    width: 26%;
+}
+
+.cont2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+
+.mycolor1{
+    background-color: plum;
+}
+
+.mycolor2{
+    background-color: red;
+}
+.mycolor3{
+    background-color: yellow;
+}
+
+
+.contain:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+p{
+    padding: 3px;
+    text-align: justify;
+    margin-top: 30px;
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .contain{
+        width: 100%;
+    }
+    
+  }
+
+  @media(min-width:767px) and (max-width:991px){
+     .contain{
+        width: 50%;
+      
+        
+    }
+    .contain1{
+        width: 90%;
+      
+    } 
+  }
+  @media only screen and (max-width: 767px) {
+    .contain{
+        width: 88%;
+        float: right;
+        
+    }
+   
+  
+  }
